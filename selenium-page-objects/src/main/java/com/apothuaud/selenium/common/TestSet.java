@@ -43,11 +43,11 @@ public class TestSet {
         File JSON_SOURCE = new File(JSON_SOURCE_PATH);
         setEnv(new ObjectMapper().readValue(JSON_SOURCE, HashMap.class));
         if (OSValidator.isMac()) {
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_mac");
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver_mac");
         } else if (OSValidator.isWindows()) {
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_win.exe");
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver_win.exe");
         } else if (OSValidator.isUnix()) {
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_linux.exe");
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver_linux.exe");
         }
         setDriver(new ChromeDriver());
         getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
