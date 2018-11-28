@@ -1,0 +1,10 @@
+.idea
+.idea/
+clickclack-web-tests.iml
+.idea/workspace.xml
+.idea/modules.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+*/target/**
+*/target
