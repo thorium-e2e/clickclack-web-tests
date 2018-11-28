@@ -47,7 +47,7 @@ public class TestSet {
         } else if (OSValidator.isWindows()) {
             System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_win.exe");
         } else if (OSValidator.isUnix()) {
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_linux);
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_linux");
         }
         setDriver(new ChromeDriver());
         getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
