@@ -16,32 +16,33 @@ import java.util.List;
 @SuppressWarnings({"UnusedReturnValue", "unused"})
 public class ClacksListPage extends PageObject {
 
-    @FindBy(tagName = "nav")
-    WebElement nav;
+    // @FindBy(id = "link-back-home") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-home\"]")
+    private WebElement lnk_home;
 
-    @FindBy(id = "link-back-home")
-    WebElement lnk_home;
+    // @FindBy(id = "link-create-clack") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-create-clack\"]")
+    private WebElement lnk_createClack;
 
-    @FindBy(id = "link-create-clack")
-    WebElement lnk_create;
+    // @FindBy(id = "clacks-list") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"clacks-list\"]")
+    private WebElement ol_clacksList;
 
-    @FindBy(id = "clacks-list")
-    WebElement ul_clacksList;
+    // @FindBy(className = "clack") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"clack\"]")
+    private List<WebElement> li_clack;
 
-    @FindBy(className = "clack")
-    List<WebElement> li_clacksItems;
+    // @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/p/a[1]/button") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-update-clack\"][last()]")
+    private WebElement btn_updateLastClack;
 
-    @FindBy(className = "content-item")
-    List<WebElement> clacks;
+    // @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/p/a[2]/button") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-delete-clack\"][last()]")
+    private WebElement btn_deleteLastClack;
 
-    @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/p/a[1]/button")
-    WebElement btn_updateLastClack;
-
-    @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/p/a[2]/button")
-    WebElement btn_deleteLastClack;
-
-    @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/a")
-    WebElement lnk_lastClackDetails;
+    // @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/a") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"lnk-to-clack-details\"][last()]")
+    private WebElement lnk_lastClackDetails;
 
     public ClacksListPage(WebDriver driver, HashMap env) {
         super(driver, env);
@@ -60,10 +61,9 @@ public class ClacksListPage extends PageObject {
     }
 
     public ClacksListPage verifyContent() {
-        Assert.assertTrue(nav.isDisplayed());
         Assert.assertTrue(lnk_home.isDisplayed());
-        Assert.assertTrue(lnk_create.isDisplayed());
-        Assert.assertTrue(ul_clacksList.isDisplayed());
+        Assert.assertTrue(lnk_createClack.isDisplayed());
+        Assert.assertTrue(ol_clacksList.isDisplayed());
         return this;
     }
 
@@ -75,7 +75,7 @@ public class ClacksListPage extends PageObject {
 
     public ClacksListPage gotoCreatePage() {
         System.out.println("going to createPage from: " + getClass().getName());
-        lnk_create.click();
+        lnk_createClack.click();
         return this;
     }
 
@@ -98,13 +98,13 @@ public class ClacksListPage extends PageObject {
     }
 
     public String getLastClackId() throws IOException {
-        WebElement lastClackElement = clacks.get(clacks.size()-1).findElement(By.tagName("a")).findElement(By.tagName("p"));
+        WebElement lastClackElement = li_clack.get(li_clack.size()-1).findElement(By.tagName("a")).findElement(By.tagName("p"));
         JsonNode lastClack = new ObjectMapper().readTree(lastClackElement.getText());
         return lastClack.findValue("_id").toString().replace("\"", "");
     }
 
     public boolean verifyPresenceOfClackById(String testClackId) throws IOException {
-        for (WebElement clack : clacks) {
+        for (WebElement clack : li_clack) {
             WebElement clackElement = clack.findElement(By.tagName("a")).findElement(By.tagName("p"));
             JsonNode clackNode = new ObjectMapper().readTree(clackElement.getText());
             String clackId = clackNode.findValue("_id").toString().replace("\"", "");

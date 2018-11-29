@@ -5,11 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.pmw.tinylog.Logger;
 import org.testng.Assert;
 
 import java.util.HashMap;
@@ -17,20 +15,25 @@ import java.util.List;
 
 public class ClacksCreatePage extends PageObject {
 
-    @FindBy(className = "input-free-form")
-    List<WebElement> fields;
+    // @FindBy(className = "input-free-form") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"clack-fields-pair\"")
+    private List<WebElement> clack_fields_pair;
 
-    @FindBy(id = "btn-add-fields")
-    WebElement btn_addFields;
+    // @FindBy(id = "btn-add-clack_fields_pair") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-add-fields\"")
+    private WebElement btn_addFields;
 
-    @FindBy(id = "btn-rm-fields")
-    WebElement btn_rmFields;
+    // @FindBy(id = "btn-rm-clack_fields_pair") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-delete-fields\"")
+    private WebElement btn_rmFields;
 
-    @FindBy(className = "button-submit")
-    WebElement btn_submit;
+    // @FindBy(className = "button-submit") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-submit-form\"")
+    private WebElement btn_submit;
 
-    @FindBy(id = "lnk-clacks")
-    WebElement lnk_clacksPage;
+    // @FindBy(id = "lnk-clacks") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"")
+    private WebElement lnk_clacksPage;
 
     public ClacksCreatePage(WebDriver driver, HashMap env) {
         super(driver, env);
@@ -55,14 +58,14 @@ public class ClacksCreatePage extends PageObject {
     }
 
     public ClacksCreatePage verifyNbFields(int expected) {
-        Assert.assertEquals(fields.size(), expected);
+        Assert.assertEquals(clack_fields_pair.size(), expected);
         return this;
     }
 
     public ClacksCreatePage addFields() {
-        System.out.println("Adding fields in page: " + getClass().getName());
+        System.out.println("Adding clack_fields_pair in page: " + getClass().getName());
         btn_addFields.click();
-        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.id("btn-rm-fields"));
+        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.id("btn-rm-clack_fields_pair"));
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(cdtn);
         System.out.println("Fields added");
@@ -70,7 +73,7 @@ public class ClacksCreatePage extends PageObject {
     }
 
     public ClacksCreatePage removeFields() {
-        System.out.println("Removing fields in page: " + getClass().getName());
+        System.out.println("Removing clack_fields_pair in page: " + getClass().getName());
         btn_rmFields.click();
         return this;
     }

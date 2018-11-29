@@ -4,35 +4,36 @@ import com.apothuaud.selenium.common.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.pmw.tinylog.Logger;
 import org.testng.Assert;
 
 import java.util.HashMap;
-import java.util.List;
 
 @SuppressWarnings("unused")
 public class HomePage extends PageObject {
 
-    @FindBy(id = "title")
-    WebElement h_title;
+    // @FindBy(id = "title") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"home-title\"]")
+    private WebElement h_title;
 
-    @FindBy(id = "intro")
-    WebElement div_intro;
+    // @FindBy(id = "intro") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"home-intro\"]")
+    private WebElement div_intro;
 
-    @FindBy(id = "content")
-    WebElement div_content;
+    // @FindBy(id = "content") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"home-content\"]")
+    private WebElement div_content;
 
-    @FindBy(id = "content-list")
-    WebElement div_contentList;
+    // @FindBy(id = "content-list") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"home-content-list\"]")
+    private WebElement ul_contentList;
 
-    @FindBy(className = "content-list-item")
-    List<WebElement> li_contentItems;
+    // @FindBy(id = "link-list-clacks") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"]")
+    private WebElement lnk_listClacks;
 
-    @FindBy(id = "link-list-clacks")
-    WebElement lnk_listClacks;
-
-    @FindBy(id = "content-info")
-    WebElement div_contentInfo;
+    // @FindBy(id = "content-info") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"home-content-info\"]")
+    private WebElement div_contentInfo;
 
     public HomePage(WebDriver driver, HashMap env) {
         super(driver, env);
@@ -54,7 +55,7 @@ public class HomePage extends PageObject {
         Assert.assertTrue(h_title.isDisplayed());
         Assert.assertTrue(div_intro.isDisplayed());
         Assert.assertTrue(div_content.isDisplayed());
-        Assert.assertTrue(div_contentList.isDisplayed());
+        Assert.assertTrue(ul_contentList.isDisplayed());
         Assert.assertTrue(lnk_listClacks.isDisplayed());
         Assert.assertTrue(div_contentInfo.isDisplayed());
         return this;

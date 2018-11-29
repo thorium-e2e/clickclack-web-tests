@@ -9,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.pmw.tinylog.Logger;
 import org.testng.Assert;
 
 import java.util.HashMap;
@@ -20,7 +19,7 @@ public class ClacksUpdatePage extends PageObject {
 
     private String clackId;
 
-    public String getClackId() {
+    private String getClackId() {
         return clackId;
     }
 
@@ -28,20 +27,25 @@ public class ClacksUpdatePage extends PageObject {
         this.clackId = clackId;
     }
 
-    @FindBy(className = "input-free-form")
-    List<WebElement> fields;
+    // @FindBy(className = "input-free-form") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"clack-fields\"]")
+    private List<WebElement> div_clackFields;
 
-    @FindBy(id = "btn-add-fields")
-    WebElement btn_addFields;
+    // @FindBy(id = "btn-add-fields") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-add-fields\"]")
+    private WebElement btn_addFields;
 
-    @FindBy(xpath = "//*[@id=\"clack-fields\"]/p/button")
-    WebElement btn_rmFields;
+    // @FindBy(xpath = "//*[@id=\"clack-fields\"]/p/button") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-delete-fields\"]")
+    private WebElement btn_rmFields;
 
-    @FindBy(className = "button-submit")
-    WebElement btn_submit;
+    // @FindBy(className = "button-submit") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-submit-form\"]")
+    private WebElement btn_submit;
 
-    @FindBy(id = "lnk-clacks")
-    WebElement lnk_clacksPage;
+    // @FindBy(id = "lnk-clacks") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"]")
+    private WebElement lnk_clacksPage;
 
     public ClacksUpdatePage(WebDriver driver, HashMap env, String id) {
         super(driver, env);
@@ -67,7 +71,7 @@ public class ClacksUpdatePage extends PageObject {
     }
 
     public ClacksUpdatePage verifyNbFields(int expected) {
-        Assert.assertEquals(fields.size(), expected);
+        Assert.assertEquals(div_clackFields.size(), expected);
         return this;
     }
 
@@ -100,6 +104,6 @@ public class ClacksUpdatePage extends PageObject {
     }
 
     public int getNbFields() {
-        return fields.size();
+        return div_clackFields.size();
     }
 }

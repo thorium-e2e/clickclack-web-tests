@@ -4,7 +4,6 @@ import com.apothuaud.selenium.common.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.pmw.tinylog.Logger;
 import org.testng.Assert;
 
 import java.util.HashMap;
@@ -22,17 +21,21 @@ public class ClacksDeletePage extends PageObject {
         this.clackId = clackId;
     }
 
-    @FindBy(id = "confirm-delete-label")
-    WebElement lbl_confirmDelete;
+    // @FindBy(id = "confirm-delete-label") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"are-you-sure\"")
+    private WebElement lbl_areYouSure;
 
-    @FindBy(xpath = "/html/body/p[3]/a[1]/button")
-    WebElement btn_delete;
+    // @FindBy(xpath = "/html/body/p[3]/a[1]/button") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"not-sure\"")
+    private WebElement btn_notSure;
 
-    @FindBy(className = "button-create")
-    WebElement btn_create;
+    // @FindBy(className = "button-create") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"sure\"")
+    private WebElement btn_sure;
 
-    @FindBy(xpath = "//*[@id=\"link-back\"]")
-    WebElement lnk_listPage;
+    // @FindBy(xpath = "//*[@id=\"link-back\"]") deprecated
+    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"")
+    private WebElement lnk_listPage;
 
     public ClacksDeletePage(WebDriver driver, HashMap env, String id) {
         super(driver, env);
@@ -52,9 +55,9 @@ public class ClacksDeletePage extends PageObject {
     }
 
     public ClacksDeletePage verifyContent() {
-        Assert.assertTrue(lbl_confirmDelete.isDisplayed());
-        Assert.assertTrue(btn_create.isDisplayed());
-        Assert.assertTrue(btn_delete.isDisplayed());
+        Assert.assertTrue(lbl_areYouSure.isDisplayed());
+        Assert.assertTrue(btn_sure.isDisplayed());
+        Assert.assertTrue(btn_notSure.isDisplayed());
         return this;
     }
 
@@ -66,13 +69,13 @@ public class ClacksDeletePage extends PageObject {
 
     public ClacksDeletePage refuse() {
         System.out.println("Refuse delete in page: " + getClass().getName());
-        btn_delete.click();
+        btn_notSure.click();
         return this;
     }
 
     public ClacksDeletePage accept() {
         System.out.println("Accept delete in page: " + getClass().getName());
-        btn_create.click();
+        btn_sure.click();
         return this;
     }
 }
