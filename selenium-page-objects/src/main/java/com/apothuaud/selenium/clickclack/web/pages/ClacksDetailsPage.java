@@ -22,7 +22,8 @@ public class ClacksDetailsPage extends PageObject {
         this.clackId = clackId;
     }
 
-    @FindBy(id = "link-list")
+    // @FindBy(id = "link-list") deprecated
+    @FindBy(xpath = "//*[selenium-id=\"link-list\"]")
     WebElement btn_list;
 
     @FindBy(id = "link-update")
