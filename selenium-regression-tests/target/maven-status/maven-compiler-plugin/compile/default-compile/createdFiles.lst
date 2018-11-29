@@ -1,2 +1,2 @@
-com\apothuaud\testng\listeners\SlackNotifier.class
-com\apothuaud\selenium\clickclack\Clack.class
+com/apothuaud/testng/listeners/SimpleListener.class
+com/apothuaud/testng/listeners/SlackNotifier.class

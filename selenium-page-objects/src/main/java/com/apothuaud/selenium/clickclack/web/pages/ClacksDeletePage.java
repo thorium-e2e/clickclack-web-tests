@@ -22,19 +22,19 @@ public class ClacksDeletePage extends PageObject {
     }
 
     // @FindBy(id = "confirm-delete-label") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"are-you-sure\"")
+    @FindBy(xpath = "//*[@testsautoid=\"are-you-sure\"]")
     private WebElement lbl_areYouSure;
 
     // @FindBy(xpath = "/html/body/p[3]/a[1]/button") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"not-sure\"")
+    @FindBy(xpath = "//*[@testsautoid=\"not-sure\"]")
     private WebElement btn_notSure;
 
     // @FindBy(className = "button-create") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"sure\"")
+    @FindBy(xpath = "//*[@testsautoid=\"sure\"]")
     private WebElement btn_sure;
 
     // @FindBy(xpath = "//*[@id=\"link-back\"]") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-clacks-list\"]")
     private WebElement lnk_listPage;
 
     public ClacksDeletePage(WebDriver driver, HashMap env, String id) {

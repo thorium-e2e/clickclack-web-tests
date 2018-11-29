@@ -12,27 +12,27 @@ import java.util.HashMap;
 public class HomePage extends PageObject {
 
     // @FindBy(id = "title") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"home-title\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"home-title\"]")
     private WebElement h_title;
 
     // @FindBy(id = "intro") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"home-intro\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"home-intro\"]")
     private WebElement div_intro;
 
     // @FindBy(id = "content") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"home-content\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"home-content\"]")
     private WebElement div_content;
 
     // @FindBy(id = "content-list") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"home-content-list\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"home-content-list\"]")
     private WebElement ul_contentList;
 
     // @FindBy(id = "link-list-clacks") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-clacks-list\"]")
     private WebElement lnk_listClacks;
 
     // @FindBy(id = "content-info") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"home-content-info\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"home-content-info\"]")
     private WebElement div_contentInfo;
 
     public HomePage(WebDriver driver, HashMap env) {

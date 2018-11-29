@@ -28,23 +28,23 @@ public class ClacksUpdatePage extends PageObject {
     }
 
     // @FindBy(className = "input-free-form") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"clack-fields\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"clack-fields\"]")
     private List<WebElement> div_clackFields;
 
     // @FindBy(id = "btn-add-fields") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-add-fields\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-add-fields\"]")
     private WebElement btn_addFields;
 
     // @FindBy(xpath = "//*[@id=\"clack-fields\"]/p/button") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-delete-fields\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-delete-fields\"]")
     private WebElement btn_rmFields;
 
     // @FindBy(className = "button-submit") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-submit-form\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-submit-form\"]")
     private WebElement btn_submit;
 
     // @FindBy(id = "lnk-clacks") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-clacks-list\"]")
     private WebElement lnk_clacksPage;
 
     public ClacksUpdatePage(WebDriver driver, HashMap env, String id) {

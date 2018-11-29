@@ -17,31 +17,31 @@ import java.util.List;
 public class ClacksListPage extends PageObject {
 
     // @FindBy(id = "link-back-home") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-home\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-home\"]")
     private WebElement lnk_home;
 
     // @FindBy(id = "link-create-clack") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-create-clack\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-create-clack\"]")
     private WebElement lnk_createClack;
 
     // @FindBy(id = "clacks-list") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"clacks-list\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"clacks-list\"]")
     private WebElement ol_clacksList;
 
     // @FindBy(className = "clack") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"clack\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"clack\"]")
     private List<WebElement> li_clack;
 
     // @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/p/a[1]/button") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-update-clack\"][last()]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-update-clack\"][last()]")
     private WebElement btn_updateLastClack;
 
     // @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/p/a[2]/button") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-delete-clack\"][last()]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-delete-clack\"][last()]")
     private WebElement btn_deleteLastClack;
 
     // @FindBy(xpath = "//*[@id=\"clacks-list\"]/li[last()]/a") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"lnk-to-clack-details\"][last()]")
+    @FindBy(xpath = "//*[@testsautoid=\"lnk-to-clack-details\"][last()]")
     private WebElement lnk_lastClackDetails;
 
     public ClacksListPage(WebDriver driver, HashMap env) {

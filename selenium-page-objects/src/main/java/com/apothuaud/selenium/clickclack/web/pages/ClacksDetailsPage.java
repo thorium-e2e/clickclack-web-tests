@@ -22,11 +22,11 @@ public class ClacksDetailsPage extends PageObject {
     }
 
     // @FindBy(id = "link-list") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-clacks-list\"]")
     WebElement btn_toClacksList;
 
     // @FindBy(id = "link-update") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-update-clack\"]")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-update-clack\"]")
     WebElement btn_toUpdateClack;
 
     public ClacksDetailsPage(WebDriver driver, HashMap env, String clackId) {

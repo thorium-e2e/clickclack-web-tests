@@ -1,2 +1,3 @@
-C:\Users\apothuaud\Documents\GitHub\clickclack-web-tests\selenium-regression-tests\src\main\java\com\apothuaud\selenium\clickclack\Clack.java
-C:\Users\apothuaud\Documents\GitHub\clickclack-web-tests\selenium-regression-tests\src\main\java\com\apothuaud\testng\listeners\SlackNotifier.java
+/Users/adrian/GitHub/clickclack-web-tests/selenium-regression-tests/src/main/java/com/apothuaud/selenium/clickclack/Clack.java
+/Users/adrian/GitHub/clickclack-web-tests/selenium-regression-tests/src/main/java/com/apothuaud/testng/listeners/SimpleListener.java
+/Users/adrian/GitHub/clickclack-web-tests/selenium-regression-tests/src/main/java/com/apothuaud/testng/listeners/SlackNotifier.java

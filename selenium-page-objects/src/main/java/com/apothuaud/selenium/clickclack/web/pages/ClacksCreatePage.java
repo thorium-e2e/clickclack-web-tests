@@ -16,23 +16,23 @@ import java.util.List;
 public class ClacksCreatePage extends PageObject {
 
     // @FindBy(className = "input-free-form") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"clack-fields-pair\"")
+    @FindBy(xpath = "//*[@testsautoid=\"clack-fields-pair\"]")
     private List<WebElement> clack_fields_pair;
 
     // @FindBy(id = "btn-add-clack_fields_pair") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-add-fields\"")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-add-fields\"]")
     private WebElement btn_addFields;
 
     // @FindBy(id = "btn-rm-clack_fields_pair") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-delete-fields\"")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-delete-fields\"]")
     private WebElement btn_rmFields;
 
     // @FindBy(className = "button-submit") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-submit-form\"")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-submit-form\"]")
     private WebElement btn_submit;
 
     // @FindBy(id = "lnk-clacks") deprecated
-    @FindBy(xpath = "//*[@testsAutoId=\"btn-to-clacks-list\"")
+    @FindBy(xpath = "//*[@testsautoid=\"btn-to-clacks-list\"]")
     private WebElement lnk_clacksPage;
 
     public ClacksCreatePage(WebDriver driver, HashMap env) {
@@ -65,7 +65,7 @@ public class ClacksCreatePage extends PageObject {
     public ClacksCreatePage addFields() {
         System.out.println("Adding clack_fields_pair in page: " + getClass().getName());
         btn_addFields.click();
-        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.id("btn-rm-clack_fields_pair"));
+        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.id("btn-delete-fields"));
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(cdtn);
         System.out.println("Fields added");
