@@ -98,4 +98,8 @@ public class ClacksUpdatePage extends PageObject {
         btn_submit.click();
         return this;
     }
+
+    public int getNbFields() {
+        return fields.size();
+    }
 }

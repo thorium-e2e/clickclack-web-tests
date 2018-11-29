@@ -38,11 +38,15 @@ public class ClacksUpdatePageFunctionalTestSet extends TestSet {
             groups = { "fun", "dev", "rec", "prod" }
     )
     public void testUpdateFormAddFields(){
-        new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId())
-                .openPage()
-                .verifyNbFields(1)
+        int nFields;
+        ClacksUpdatePage page = new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId());
+        page
+                .openPage();
+        nFields = page
+                .getNbFields();
+        page
                 .addFields()
-                .verifyNbFields(2);
+                .verifyNbFields(nFields + 1);
     }
 
     // 1. remove fields in update clack form

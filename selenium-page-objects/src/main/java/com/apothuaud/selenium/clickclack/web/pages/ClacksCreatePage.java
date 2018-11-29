@@ -65,7 +65,7 @@ public class ClacksCreatePage extends PageObject {
         ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.id("btn-rm-fields"));
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(cdtn);
-        PageFactory.initElements(getDriver(), this);
+        System.out.println("Fields added");
         return this;
     }
 
