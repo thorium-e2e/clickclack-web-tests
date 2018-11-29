@@ -4,9 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.pmw.tinylog.Logger;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -36,7 +34,7 @@ public class TestSet {
     private static WebDriver driver;
 
     @SuppressWarnings("unused")
-    @BeforeSuite
+    @BeforeClass
     public static void setUp() throws IOException {
         Logger.info("Setting up test suite for Selenium...");
         String JSON_SOURCE_PATH = "src/test/resources/config/env.json";
@@ -53,7 +51,7 @@ public class TestSet {
         getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
-    @AfterSuite
+    @AfterClass
     public void cleanUp(){
         driver.manage().deleteAllCookies();
         driver.close();
