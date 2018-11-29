@@ -14,6 +14,7 @@ public class ClacksUpdatePageFunctionalTestSet extends TestSet {
     // PASSED
 
     private String newClackId;
+    int nFields;
 
     private String getNewClackId() {
         return newClackId;
@@ -38,7 +39,6 @@ public class ClacksUpdatePageFunctionalTestSet extends TestSet {
             groups = { "fun", "dev", "rec", "prod" }
     )
     public void testUpdateFormAddFields(){
-        int nFields;
         ClacksUpdatePage page = new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId());
         page
                 .openPage();
@@ -58,6 +58,6 @@ public class ClacksUpdatePageFunctionalTestSet extends TestSet {
     public void testUpdateFormRemoveFields(){
         new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId())
                 .removeFields()
-                .verifyNbFields(1);
+                .verifyNbFields(nFields);
     }
 }
