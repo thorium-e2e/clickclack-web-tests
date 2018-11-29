@@ -22,16 +22,16 @@ public class SlackNotifier implements ITestListener, ISuiteListener {
 
     public void onFinish(ISuite suite) {
         given()
-                .log().body()
-                .with()
-                .header("Content-Type", "application/json")
-                .body("{\"text\": \"Fin d'exécution des tests.\"}")
-                .when()
-                .post("https://hooks.slack.com/services/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")
-                .then()
-                .log().body()
-                .and()
-                .statusCode(200);
+            .log().body()
+        .with()
+            .header("Content-Type", "application/json")
+            .body("{\"text\": \"Fin d'exécution des tests.\"}")
+        .when()
+            .post("https://hooks.slack.com/services/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")
+        .then()
+            .log().body()
+        .and()
+            .statusCode(200);
     }
 
     public void onTestStart(ITestResult result) {
@@ -44,16 +44,16 @@ public class SlackNotifier implements ITestListener, ISuiteListener {
 
     public void onTestFailure(ITestResult result) {
         given()
-                .log().body()
-                .with()
-                .header("Content-Type", "application/json")
-                .body("{\"text\": \"Test FAILED:\n" + result.getTestName() + "\"}")
-                .when()
-                .post("https://hooks.slack.com/services/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")
-                .then()
-                .log().body()
-                .and()
-                .statusCode(200);
+            .log().body()
+        .with()
+            .header("Content-Type", "application/json")
+            .body("{\"text\": \"1 Test => FAILED\", \"attachments\":[{\"fallback\":\"fallback\", \"pretext\":\"détails ci-dessous\", \"color\":\"#D00000\", \"fields\":[{\"title\":\"" + result.getMethod().getQualifiedName() + "\", \"value\":\"" + result.getThrowable().getMessage() + "\", \"short\":false}]}]}")
+        .when()
+            .post("https://hooks.slack.com/services/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")
+        .then()
+            .log().body()
+        .and()
+            .statusCode(200);
     }
 
     public void onTestSkipped(ITestResult result) {
