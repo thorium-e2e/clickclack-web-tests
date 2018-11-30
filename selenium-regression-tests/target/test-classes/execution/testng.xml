@@ -14,7 +14,6 @@
 
             <class name="com.apothuaud.selenium.clickclack.web.tests.draft.v1.HomePageUnitTestSet" />
             <class name="com.apothuaud.selenium.clickclack.web.tests.draft.v1.HomePageIntegrationTestSet" />
-            <class name="com.apothuaud.selenium.clickclack.web.tests.draft.v1.HomePageFunctionalTestSet" />
 
         </classes>
 
@@ -26,7 +25,6 @@
 
             <class name="com.apothuaud.selenium.clickclack.web.tests.draft.v1.ClacksListPageUnitTestSet" />
             <class name="com.apothuaud.selenium.clickclack.web.tests.draft.v1.ClacksListPageIntegrationTestSet" />
-            <class name="com.apothuaud.selenium.clickclack.web.tests.draft.v1.ClacksListPageFunctionalTestSet" />
 
         </classes>
 

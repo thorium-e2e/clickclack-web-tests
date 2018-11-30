@@ -65,7 +65,7 @@ public class ClacksCreatePage extends PageObject {
     public ClacksCreatePage addFields() {
         System.out.println("Adding clack_fields_pair in page: " + getClass().getName());
         btn_addFields.click();
-        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.id("btn-delete-fields"));
+        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@testsautoid=\"btn-delete-fields\"]"));
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(cdtn);
         System.out.println("Fields added");

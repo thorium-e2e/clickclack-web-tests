@@ -4,6 +4,7 @@ import com.apothuaud.selenium.clickclack.web.pages.ClacksCreatePage;
 import com.apothuaud.selenium.clickclack.web.pages.ClacksListPage;
 import com.apothuaud.selenium.clickclack.web.pages.ClacksUpdatePage;
 import com.apothuaud.selenium.common.TestSet;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -24,7 +25,7 @@ public class ClacksUpdatePageFunctionalTestSet extends TestSet {
         this.newClackId = newClackId;
     }
 
-    @BeforeTest
+    @BeforeClass
     public void beforeTest() throws IOException {
         new ClacksCreatePage(getDriver(), getEnv())
                 .openPage()

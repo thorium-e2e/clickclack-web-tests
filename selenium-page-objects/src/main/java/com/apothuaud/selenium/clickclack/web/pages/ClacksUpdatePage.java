@@ -78,7 +78,7 @@ public class ClacksUpdatePage extends PageObject {
     public ClacksUpdatePage addFields() {
         System.out.println("Add fields in page: " + getClass().getName());
         btn_addFields.click();
-        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.className("button-delete"));
+        ExpectedCondition<WebElement> cdtn = ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@testsautoid=\"btn-delete-fields\"]"));
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(cdtn);
         PageFactory.initElements(getDriver(), this);

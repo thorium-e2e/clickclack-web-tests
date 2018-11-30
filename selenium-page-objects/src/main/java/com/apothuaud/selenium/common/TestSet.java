@@ -27,17 +27,17 @@ public class TestSet {
         return driver;
     }
 
-    public static void setDriver(WebDriver driver) {
+    private static void setDriver(WebDriver driver) {
         TestSet.driver = driver;
     }
 
     private static WebDriver driver;
 
     @SuppressWarnings("unused")
-    @BeforeSuite
+    @BeforeClass
     public static void setUp() throws IOException {
         Logger.info("Setting up test suite for Selenium...");
-        String JSON_SOURCE_PATH = "src/test/resources/config/dev.json";
+        String JSON_SOURCE_PATH = "src/test/resources/config/rec.json";
         File JSON_SOURCE = new File(JSON_SOURCE_PATH);
         setEnv(new ObjectMapper().readValue(JSON_SOURCE, HashMap.class));
         if (OSValidator.isMac()) {
@@ -51,7 +51,7 @@ public class TestSet {
         getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
-    @AfterSuite
+    @AfterClass
     public void cleanUp(){
         driver.manage().deleteAllCookies();
         driver.close();
