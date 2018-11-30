@@ -51,6 +51,7 @@ public class ClacksUpdatePage extends PageObject {
         super(driver, env);
         setClackId(id);
         setUrl(getEnv().get("domain") + "/clacks/" + getClackId() + "/update");
+        PageFactory.initElements(getDriver(), this);
     }
 
     public ClacksUpdatePage openPage() {

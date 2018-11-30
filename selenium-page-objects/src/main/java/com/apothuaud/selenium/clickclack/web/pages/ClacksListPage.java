@@ -7,6 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.io.IOException;
@@ -47,6 +50,7 @@ public class ClacksListPage extends PageObject {
     public ClacksListPage(WebDriver driver, HashMap env) {
         super(driver, env);
         setUrl(getEnv().get("domain") + "/clacks");
+        PageFactory.initElements(getDriver(), this);
     }
 
     public ClacksListPage openPage() {

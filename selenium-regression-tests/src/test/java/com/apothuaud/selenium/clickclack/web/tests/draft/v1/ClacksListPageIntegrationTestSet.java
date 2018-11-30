@@ -3,7 +3,7 @@ package com.apothuaud.selenium.clickclack.web.tests.draft.v1;
 import com.apothuaud.selenium.clickclack.web.pages.*;
 import com.apothuaud.selenium.common.TestSet;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -22,7 +22,7 @@ public class ClacksListPageIntegrationTestSet extends TestSet {
         this.newClackId = newClackId;
     }
 
-    @BeforeClass
+    @BeforeTest
     public void beforeTest() throws IOException {
         new ClacksCreatePage(getDriver(), getEnv())
                 .openPage()

@@ -40,12 +40,11 @@ public class ClacksUpdatePageFunctionalTestSet extends TestSet {
             groups = { "fun", "dev", "rec", "prod" }
     )
     public void testUpdateFormAddFields(){
-        ClacksUpdatePage page = new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId());
-        page
+        new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId())
                 .openPage();
-        nFields = page
+        nFields = new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId())
                 .getNbFields();
-        page
+        new ClacksUpdatePage(getDriver(), getEnv(), getNewClackId())
                 .addFields()
                 .verifyNbFields(nFields + 1);
     }

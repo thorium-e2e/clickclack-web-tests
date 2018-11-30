@@ -34,7 +34,7 @@ public class TestSet {
     private static WebDriver driver;
 
     @SuppressWarnings("unused")
-    @BeforeClass
+    @BeforeSuite
     public static void setUp() throws IOException {
         Logger.info("Setting up test suite for Selenium...");
         String JSON_SOURCE_PATH = "src/test/resources/config/rec.json";
@@ -51,7 +51,7 @@ public class TestSet {
         getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
-    @AfterClass
+    @AfterSuite
     public void cleanUp(){
         driver.manage().deleteAllCookies();
         driver.close();

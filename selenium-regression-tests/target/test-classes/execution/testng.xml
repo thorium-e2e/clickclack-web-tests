@@ -2,12 +2,6 @@
 
 <suite name="ClickClack Web Draft v1">
 
-    <!--<listeners>
-
-        <listener class-name="com.apothuaud.testng.listeners.SlackNotifier" />
-
-    </listeners>-->
-
     <test name="HomePage">
 
         <classes>
