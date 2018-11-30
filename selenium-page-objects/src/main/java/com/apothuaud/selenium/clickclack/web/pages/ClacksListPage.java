@@ -50,12 +50,12 @@ public class ClacksListPage extends PageObject {
     public ClacksListPage(WebDriver driver, HashMap env) {
         super(driver, env);
         setUrl(getEnv().get("domain") + "/clacks");
-        PageFactory.initElements(getDriver(), this);
     }
 
     public ClacksListPage openPage() {
         System.out.println("Open page: " + getClass().getName() + " with url: " + getUrl());
         getDriver().get(getUrl());
+        PageFactory.initElements(getDriver(), this);
         return this;
     }
 

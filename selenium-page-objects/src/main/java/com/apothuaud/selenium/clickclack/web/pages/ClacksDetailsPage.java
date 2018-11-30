@@ -34,12 +34,12 @@ public class ClacksDetailsPage extends PageObject {
         super(driver, env);
         setClackId(clackId);
         setUrl(env.get("domain") +"/clacks/" + getClackId() + "/details");
-        PageFactory.initElements(getDriver(), this);
     }
 
     public ClacksDetailsPage openPage() {
         System.out.println("Open page: " + getClass().getName() + " with url: " + getUrl());
         getDriver().get(getUrl());
+        PageFactory.initElements(getDriver(), this);
         return this;
     }
 

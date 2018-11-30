@@ -4,6 +4,7 @@ import com.apothuaud.selenium.common.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import java.util.HashMap;
@@ -46,6 +47,7 @@ public class ClacksDeletePage extends PageObject {
     public ClacksDeletePage openPage() {
         System.out.println("Open page: " + getClass().getName() + " with url: " + getUrl());
         getDriver().get(getUrl());
+        PageFactory.initElements(getDriver(), this);
         return this;
     }
 
