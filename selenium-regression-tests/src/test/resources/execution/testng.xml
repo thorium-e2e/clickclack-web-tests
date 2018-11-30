@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="ClickClack Web Draft v1">
+<suite name="ClickClack Web Draft v1" parallel="classes">
 
-    <!--<listeners>
+    <listeners>
 
         <listener class-name="com.apothuaud.testng.listeners.SlackNotifier" />
 
-    </listeners>-->
+    </listeners>
 
     <test name="HomePage">
 
