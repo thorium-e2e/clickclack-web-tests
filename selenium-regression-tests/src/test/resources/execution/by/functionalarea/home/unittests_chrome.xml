@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ClickClack Web Draft v1 - Home Page - Unit Tests Suite">
+
+    <test name="HomePage">
+
+        <classes>
+
+            <class name="com.clickclack.web.tests.draft.v1.pop.home.HomePageUnitTestSet">
+
+                <methods>
+
+
+
+                </methods>
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
