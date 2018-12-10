@@ -5,7 +5,8 @@
     <listeners>
     
         <listener class-name="com.clickclack.web.autotests.listeners.ExtentListener"/>
-        
+        <listener class-name="com.clickclack.web.autotests.listeners.SlackNotifier"/>
+
     </listeners>
 
     <test name="HomePage">
