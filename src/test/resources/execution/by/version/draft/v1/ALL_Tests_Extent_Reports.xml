@@ -1,0 +1,93 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ClickClack Web Draft v1">
+
+    <listeners>
+    
+        <listener class-name="com.clickclack.web.autotests.listeners.ExtentListener"/>
+        
+    </listeners>
+
+    <test name="HomePage">
+
+        <classes>
+
+            <class name="com.clickclack.web.autotests.draft.v1.pop.home.HomePageFunctionalTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="ClacksListPage">
+
+        <classes>
+
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageFunctionalTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="ClacksCreatePage">
+
+        <classes>
+
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="ClacksDetailsPage">
+
+        <classes>
+
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="ClacksUpdatePage">
+
+        <classes>
+
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="ClacksDeletePage">
+
+        <classes>
+
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet" />
+            <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="end to end">
+
+        <classes>
+
+            <class name="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet" />
+
+        </classes>
+
+    </test>
+
+</suite>
