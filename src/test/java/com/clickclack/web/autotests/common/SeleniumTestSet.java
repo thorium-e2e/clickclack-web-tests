@@ -11,12 +11,12 @@ public class SeleniumTestSet {
     @DataProvider
     public static Object[][] HostsAndBrowsersProvider() {
         return new Object[][]{
-                {"http://localhost:3000", "chrome"},
-                {"http://localhost:3000", "firefox"},
+                //{"http://localhost:3000", "chrome"},
+                //{"http://localhost:3000", "firefox"},
                 {"http://rec-clickclack-web.herokuapp.com", "chrome"},
-                {"http://rec-clickclack-web.herokuapp.com", "firefox"},
-                {"http://clickclack-web.herokuapp.com", "chrome"},
-                {"http://clickclack-web.herokuapp.com", "firefox"}
+                //{"http://rec-clickclack-web.herokuapp.com", "firefox"},
+                //{"http://clickclack-web.herokuapp.com", "chrome"},
+                //{"http://clickclack-web.herokuapp.com", "firefox"}
         };
     }
 
