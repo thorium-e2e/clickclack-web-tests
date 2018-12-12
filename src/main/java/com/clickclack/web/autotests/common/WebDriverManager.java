@@ -81,8 +81,17 @@ public class WebDriverManager {
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) currentDriver;
         File source = ts.getScreenshotAs(OutputType.FILE);
+        String destination;
         //after execution, you could see a folder "FailedTestsScreenshots" under src folder
-        String destination = System.getProperty("user.dir") + "/target/ExtentReports/TestsScreenshots/" + screenshotName + dateName + ".png";
+        if (OSValidator.isMac()) {
+            destination = System.getProperty("user.dir") + "/target/ExtentReports/TestsScreenshots/" + screenshotName + dateName + ".png";
+        } else if (OSValidator.isWindows()){
+            destination = System.getProperty("user.dir") + "\\target\\ExtentReports\\TestsScreenshots\\" + dateName + ".png";
+            destination = destination.replace(" ", "\\ ");
+            System.out.println(destination);
+        } else {
+            throw new Exception("Le systeme d exploitation n est pas pris en charge.");
+        }
         File finalDestination = new File(destination);
         FileUtils.copyFile(source, finalDestination);
         //Returns the captured file path

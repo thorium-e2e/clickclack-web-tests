@@ -80,6 +80,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
+                    <systemPropertyVariables>
+                        <propertyName>browser.type</propertyName>
+                        <propertyName>browser.mode</propertyName>
+                        <propertyName>env.name</propertyName>
+                    </systemPropertyVariables>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/execution/by/version/draft/v1/ALL_Tests_Extent_Reports.xml</suiteXmlFile>
                     </suiteXmlFiles>

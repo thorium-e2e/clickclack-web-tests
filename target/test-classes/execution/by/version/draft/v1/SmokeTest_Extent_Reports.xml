@@ -18,7 +18,7 @@
 
     </test>
 
-    <test name="ClacksDetailsPage">
+   <!-- <test name="ClacksDetailsPage">
 
         <classes>
 
@@ -56,6 +56,6 @@
 
         </classes>
 
-    </test>
+    </test>-->
 
 </suite>
