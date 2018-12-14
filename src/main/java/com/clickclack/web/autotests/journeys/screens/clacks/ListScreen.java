@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 
 public class ListScreen {
 
+    public static String EP = "/clacks";
+
     public static By lnk_home = By.id("btn-to-home");
     public static By lnk_createClack = By.id("btn-to-create-clack");
     public static By ol_clacksList = By.id("clacks-list");

@@ -13,7 +13,7 @@ public class HomePageUnitTestSet extends ClickClackWebTestSet {
             groups = { "unit tests", "home page", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testOpenHomePage(String host, String browserType) {
+    public void testOpenHomePage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new HomePageObject(driver, host)
                 .openPage()

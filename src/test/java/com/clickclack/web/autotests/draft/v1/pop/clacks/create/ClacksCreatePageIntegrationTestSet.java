@@ -15,7 +15,7 @@ public class ClacksCreatePageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testCreatePageToListPage(String host, String browserType){
+    public void testCreatePageToListPage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()

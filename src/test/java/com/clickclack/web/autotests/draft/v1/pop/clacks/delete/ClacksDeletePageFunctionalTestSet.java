@@ -16,7 +16,7 @@ public class ClacksDeletePageFunctionalTestSet extends ClickClackWebTestSet {
             groups = { "fun", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testDeletePageRefuseToDelete(String host, String browserType) {
+    public void testDeletePageRefuseToDelete(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
     	new ClacksCreatePage(driver, host)
     		.openPage()
@@ -38,7 +38,7 @@ public class ClacksDeletePageFunctionalTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testDeletePageConfirmToDelete(String host, String browserType) {
+    public void testDeletePageConfirmToDelete(String host, String browserType) throws Exception {
     	driver = WebDriverManager.getNewWebDriverWithType(browserType);
     	new ClacksCreatePage(driver, host)
     		.openPage()

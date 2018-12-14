@@ -5,9 +5,17 @@ import org.openqa.selenium.By;
 
 public class CreateScreen extends SeleniumJourneyScreen {
 
+    public static String EP = "/clacks/create";
+
     public static By clack_fields_pair = By.id("clack-fields-pair");
     public static By btn_addFields = By.id("btn-add-fields");
     public static By btn_rmFields = By.id("btn-delete-fields");
     public static By btn_submit = By.id("btn-submit-form");
     public static By lnk_clacksPage = By.id("btn-to-clacks-list");
+    public static By input_key(int position) {
+        return By.xpath("//*[@id=\"keys\"][" + (position - 1) + "]");
+    }
+    public static By input_value(int position) {
+        return By.xpath("//*[@id=\"values\"][" + (position - 1) + "]");
+    }
 }

@@ -1,7 +1,6 @@
 package com.clickclack.web.autotests.common;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 
 public class SeleniumTestSet {
@@ -9,37 +8,42 @@ public class SeleniumTestSet {
     protected WebDriver driver;
 
     @DataProvider
-    public static Object[][] HostsAndBrowsersProvider() {
+    public static Object[][] HostsAndBrowsersProvider() throws Exception {
 
-        Object[][] data = new Object[][];
+        String envName = (System.getProperty("env.name") != null) ? System.getProperty("env.name") : "rec";
+        String browserType = (System.getProperty("browser.type") != null) ? System.getProperty("browser.type") : "chrome";
 
-        if(System.getProperty("env.name") == "local"){
-            data[0] = new Object[]{"http://localhost:3000"};
-        } else if(System.getProperty("env.name") == "rec"){
-            data[0] = new Object[]{"https://rec-clickclack-web.herokuapp.com"};
-        } else if(System.getProperty("env.name") == "prod"){
-            data[0] = new Object[]{"https://clickclack-web.herokuapp.com"};
-        } else if(System.getProperty("env.name") == "all"){
-            data[0] = new Object[]{"http://localhost:3000"};
-            data[1] = new Object[]{"https://rec-clickclack-web.herokuapp.com"};
-            data[2] = new Object[]{"https://clickclack-web.herokuapp.com"};
-        } else {
-
+        if(envName.equals("local") && browserType.equals("chrome")){
+            return new Object[][]{{"http://localhost:3000", "chrome"}};
+        }
+        if(envName.equals("local") && browserType.equals("firefox")){
+            return new Object[][]{{"http://localhost:3000", "firefox"}};
+        }
+        if(envName.equals("local") && browserType.equals("ie")){
+            return new Object[][]{{"http://localhost:3000", "ie"}};
         }
 
-        if(System.getProperty("browser.type") == "chrome"){
-            data[0][1] = "chrome";
-        } else if(System.getProperty("browser.type") == "firefox"){
-            data[0][1] = "firefox";
-        } else if(System.getProperty("browser.type") == "ie"){
-            data[0][1] = "ie";
-        } else if(System.getProperty("browser.type") == "all"){
-
-        } else {
-
+        if(envName.equals("rec") && browserType.equals("chrome")){
+            return new Object[][]{{"https://rec-clickclack-web.herokuapp.com", "chrome"}};
+        }
+        if(envName.equals("rec") && browserType.equals("firefox")){
+            return new Object[][]{{"https://rec-clickclack-web.herokuapp.com", "firefox"}};
+        }
+        if(envName.equals("rec") && browserType.equals("ie")){
+            return new Object[][]{{"https://rec-clickclack-web.herokuapp.com", "ie"}};
         }
 
-        return data;
+        if(envName.equals("prod") && browserType.equals("chrome")){
+            return new Object[][]{{"https://clickclack-web.herokuapp.com", "chrome"}};
+        }
+        if(envName.equals("prod") && browserType.equals("firefox")){
+            return new Object[][]{{"https://clickclack-web.herokuapp.com", "firefox"}};
+        }
+        if(envName.equals("prod") && browserType.equals("ie")){
+            return new Object[][]{{"https://clickclack-web.herokuapp.com", "ie"}};
+        }
+
+        throw new Exception("Les parametres donnes ne correspondent a aucun cas actuellement pris en charge ...");
     }
 
     @DataProvider

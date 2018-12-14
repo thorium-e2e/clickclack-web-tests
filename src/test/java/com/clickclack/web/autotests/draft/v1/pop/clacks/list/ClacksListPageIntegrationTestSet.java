@@ -17,7 +17,7 @@ public class ClacksListPageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testListPageToHomePage(String host, String browserType){
+    public void testListPageToHomePage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksListPage(driver, host)
                 .openPage()
@@ -32,7 +32,7 @@ public class ClacksListPageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testListPageToCreatePage(String host, String browserType){
+    public void testListPageToCreatePage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksListPage(driver, host)
                 .openPage()
@@ -47,7 +47,7 @@ public class ClacksListPageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testListPageToDetailsPage(String host, String browserType){
+    public void testListPageToDetailsPage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()
@@ -67,7 +67,7 @@ public class ClacksListPageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testListPageToUpdatePage(String host, String browserType){
+    public void testListPageToUpdatePage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()

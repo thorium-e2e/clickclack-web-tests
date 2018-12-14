@@ -12,7 +12,7 @@ public class ClacksDetailsPageFunctionalTestSet extends ClickClackWebTestSet {
             groups = { "fun", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testErrorClackNotFound(String host, String browserType) {
+    public void testErrorClackNotFound(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksDetailsPage(driver, host, "er45tgjlkfh565653ezsfkjh")
                 .openPage()

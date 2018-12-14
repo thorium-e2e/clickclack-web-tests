@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import sun.reflect.annotation.EnumConstantNotPresentExceptionProxy;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -52,7 +53,7 @@ public class WebDriverManager {
         return currentDriver;
     }
 
-    public static WebDriver getNewWebDriverWithType(String browserType) {
+    public static WebDriver getNewWebDriverWithType(String browserType) throws Exception {
         if (browserType.contains("chrome")) {
             return getNewChromeDriver();
         } else if (browserType.contains("firefox")) {
@@ -60,7 +61,7 @@ public class WebDriverManager {
         } else if (browserType.contains("ie")) {
             return getNewIEDriver();
         } else {
-            return null;
+            throw new Exception("Can't get web driver, browser type is not supporter (" + browserType + ").");
         }
     }
 

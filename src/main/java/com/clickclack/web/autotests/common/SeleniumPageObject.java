@@ -13,17 +13,15 @@ public class SeleniumPageObject {
 
     protected WebDriver driver;
     public String URL;
-    private String EP;
     protected String TITLE;
 
     public SeleniumPageObject(WebDriver driver, String EP, String host, String TITLE) {
         this.driver = driver;
-        this.EP = EP;
         this.TITLE = TITLE;
-        this.URL = host + this.EP;
+        this.URL = host + EP;
     }
 
-    protected WebElement findElement(By by) {
+    private WebElement findElement(By by) {
         return this.driver.findElement(by);
     }
 
@@ -49,7 +47,7 @@ public class SeleniumPageObject {
         wait.until(cdtn);
     }
 
-    protected boolean isTextPresent(String text) {
+    protected boolean isTextPresent(@SuppressWarnings("SameParameterValue") String text) {
         return this.driver.getPageSource().contains(text);
     }
 }

@@ -16,7 +16,7 @@ public class ClacksDetailsPageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testDetailsPageToListPage(String host, String browserType){
+    public void testDetailsPageToListPage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()
@@ -36,7 +36,7 @@ public class ClacksDetailsPageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testDetailsPageToUpdatePage(String host, String browserType){
+    public void testDetailsPageToUpdatePage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()

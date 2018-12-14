@@ -14,7 +14,7 @@ public class HomePageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "home page", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testHomePageToListPage(String host, String browserType) {
+    public void testHomePageToListPage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new HomePageObject(driver, host)
                 .openPage()

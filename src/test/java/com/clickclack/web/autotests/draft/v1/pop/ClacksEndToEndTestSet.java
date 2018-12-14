@@ -13,7 +13,7 @@ public class ClacksEndToEndTestSet extends ClickClackWebTestSet {
             groups = { "e2e", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testCRUDClack(String host, String browserType) {
+    public void testCRUDClack(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()

@@ -14,7 +14,7 @@ public class ClacksDetailsPageUnitTestSet extends ClickClackWebTestSet {
             groups = { "unit", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testOpenClackDetailsPage(String host, String browserType){
+    public void testOpenClackDetailsPage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()

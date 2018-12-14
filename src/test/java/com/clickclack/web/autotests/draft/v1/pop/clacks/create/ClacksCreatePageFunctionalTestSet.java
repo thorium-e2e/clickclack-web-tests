@@ -15,7 +15,7 @@ public class ClacksCreatePageFunctionalTestSet extends ClickClackWebTestSet {
             groups = { "fun", "clacks", "dev", "rec" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testCreateFormAddFields(String host, String browserType){
+    public void testCreateFormAddFields(String host, String browserType) throws Exception {
        driver = WebDriverManager.getNewWebDriverWithType(browserType);
        new ClacksCreatePage(driver, host)
                 .openPage()
@@ -31,7 +31,7 @@ public class ClacksCreatePageFunctionalTestSet extends ClickClackWebTestSet {
             groups = { "fun", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testCreateFormRemoveFields(String host, String browserType){
+    public void testCreateFormRemoveFields(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
         new ClacksCreatePage(driver, host)
                 .openPage()

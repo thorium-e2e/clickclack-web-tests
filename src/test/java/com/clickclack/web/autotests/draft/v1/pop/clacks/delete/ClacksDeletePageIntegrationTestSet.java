@@ -15,7 +15,7 @@ public class ClacksDeletePageIntegrationTestSet extends ClickClackWebTestSet {
             groups = { "int", "clacks", "dev", "rec", "prod" },
             dataProvider = "HostsAndBrowsersProvider"
     )
-    public void testDeletePageToListPage(String host, String browserType){
+    public void testDeletePageToListPage(String host, String browserType) throws Exception {
         driver = WebDriverManager.getNewWebDriverWithType(browserType);
     	new ClacksCreatePage(driver, host)
         	.openPage()

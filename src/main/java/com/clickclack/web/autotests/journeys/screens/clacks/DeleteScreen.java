@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 
 public class DeleteScreen {
 
+    public static String EP = "/clacks/CLACK_ID/delete";
+
     public static By lbl_areYouSure = By.id("are-you-sure");
     public static By btn_notSure = By.id("not-sure");
     public static By btn_sure = By.id("sure");
