@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ClickClack Web Draft v1]">
+  <listeners>
+    <listener class-name="com.clickclack.web.autotests.listeners.ExtentListener"/>
+    <listener class-name="com.clickclack.web.autotests.listeners.SlackNotifier"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="HomePage(failed)">
+    <classes>
+      <class name="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet">
+        <methods>
+          <include name="testHomePageToListPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet">
+        <methods>
+          <include name="testOpenHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+  <test thread-count="5" verbose="0" name="ClacksListPage(failed)">
+    <classes>
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet">
+        <methods>
+          <include name="testOpenClacksPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet">
+        <methods>
+          <include name="testListPageToDetailsPage" invocation-numbers="0"/>
+          <include name="testListPageToUpdatePage" invocation-numbers="0"/>
+          <include name="testListPageToCreatePage" invocation-numbers="0"/>
+          <include name="testListPageToHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet -->
+    </classes>
+  </test> <!-- ClacksListPage(failed) -->
+  <test thread-count="5" verbose="0" name="ClacksCreatePage(failed)">
+    <classes>
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet">
+        <methods>
+          <include name="testCreatePageToListPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet">
+        <methods>
+          <include name="testOpenCreateClackPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet">
+        <methods>
+          <include name="testCreateFormRemoveFields" invocation-numbers="0"/>
+          <include name="testCreateFormAddFields" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet -->
+    </classes>
+  </test> <!-- ClacksCreatePage(failed) -->
+  <test thread-count="5" verbose="0" name="ClacksDetailsPage(failed)">
+    <classes>
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet">
+        <methods>
+          <include name="testOpenClackDetailsPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet">
+        <methods>
+          <include name="testErrorClackNotFound" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet">
+        <methods>
+          <include name="testDetailsPageToListPage" invocation-numbers="0"/>
+          <include name="testDetailsPageToUpdatePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet -->
+    </classes>
+  </test> <!-- ClacksDetailsPage(failed) -->
+  <test thread-count="5" verbose="0" name="ClacksUpdatePage(failed)">
+    <classes>
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet">
+        <methods>
+          <include name="testOpenClackUpdatePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet">
+        <methods>
+          <include name="testUpdateFormAddFields" invocation-numbers="0"/>
+          <include name="testUpdateFormRemoveFields" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet">
+        <methods>
+          <include name="testDetailsPageToListPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet -->
+    </classes>
+  </test> <!-- ClacksUpdatePage(failed) -->
+  <test thread-count="5" verbose="0" name="ClacksDeletePage(failed)">
+    <classes>
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet">
+        <methods>
+          <include name="testDeletePageToListPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet">
+        <methods>
+          <include name="testOpenClacksDeletePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet">
+        <methods>
+          <include name="testDeletePageRefuseToDelete" invocation-numbers="0"/>
+          <include name="testDeletePageConfirmToDelete" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet -->
+    </classes>
+  </test> <!-- ClacksDeletePage(failed) -->
+  <test thread-count="5" verbose="0" name="end to end(failed)">
+    <classes>
+      <class name="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet">
+        <methods>
+          <include name="testCRUDClack" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet -->
+    </classes>
+  </test> <!-- end to end(failed) -->
+</suite> <!-- Failed suite [ClickClack Web Draft v1] -->

@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="24" ignored="0" total="24" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ClickClack Web Draft v1" duration-ms="113098" started-at="2018-12-18T00:37:52 CET" finished-at="2018-12-18T00:39:45 CET">
+    <groups>
+      <group name="unit tests">
+        <method signature="HomePageUnitTestSet.testOpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet@6ee52dcd]" name="testOpenHomePage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet"/>
+      </group> <!-- unit tests -->
+      <group name="rec">
+        <method signature="HomePageIntegrationTestSet.testHomePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet@704a52ec]" name="testHomePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet"/>
+        <method signature="HomePageUnitTestSet.testOpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet@6ee52dcd]" name="testOpenHomePage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToCreatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToCreatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToHomePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageUnitTestSet.testOpenClacksPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet@307f6b8c]" name="testOpenClacksPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet"/>
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksCreatePageIntegrationTestSet.testCreatePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet@fad74ee]" name="testCreatePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet"/>
+        <method signature="ClacksCreatePageUnitTestSet.testOpenCreateClackPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet@1a1d6a08]" name="testOpenCreateClackPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet"/>
+        <method signature="ClacksDetailsPageFunctionalTestSet.testErrorClackNotFound(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet@587d1d39]" name="testErrorClackNotFound" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageUnitTestSet.testOpenClackDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet@6b57696f]" name="testOpenClackDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet@1500955a]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet"/>
+        <method signature="ClacksUpdatePageUnitTestSet.testOpenClackUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet@e874448]" name="testOpenClackUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageConfirmToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageConfirmToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageRefuseToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageRefuseToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageIntegrationTestSet.testDeletePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet@25af5db5]" name="testDeletePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet"/>
+        <method signature="ClacksDeletePageUnitTestSet.testOpenClacksDeletePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet@12cdcf4]" name="testOpenClacksDeletePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet"/>
+        <method signature="ClacksEndToEndTestSet.testCRUDClack(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet@7b69c6ba]" name="testCRUDClack" class="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet"/>
+      </group> <!-- rec -->
+      <group name="unit">
+        <method signature="ClacksListPageUnitTestSet.testOpenClacksPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet@307f6b8c]" name="testOpenClacksPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet"/>
+        <method signature="ClacksCreatePageUnitTestSet.testOpenCreateClackPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet@1a1d6a08]" name="testOpenCreateClackPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet"/>
+        <method signature="ClacksDetailsPageUnitTestSet.testOpenClackDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet@6b57696f]" name="testOpenClackDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet"/>
+        <method signature="ClacksUpdatePageUnitTestSet.testOpenClackUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet@e874448]" name="testOpenClackUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet"/>
+        <method signature="ClacksDeletePageUnitTestSet.testOpenClacksDeletePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet@12cdcf4]" name="testOpenClacksDeletePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet"/>
+      </group> <!-- unit -->
+      <group name="prod">
+        <method signature="HomePageIntegrationTestSet.testHomePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet@704a52ec]" name="testHomePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet"/>
+        <method signature="HomePageUnitTestSet.testOpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet@6ee52dcd]" name="testOpenHomePage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToCreatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToCreatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToHomePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageUnitTestSet.testOpenClacksPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet@307f6b8c]" name="testOpenClacksPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet"/>
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksCreatePageIntegrationTestSet.testCreatePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet@fad74ee]" name="testCreatePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet"/>
+        <method signature="ClacksCreatePageUnitTestSet.testOpenCreateClackPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet@1a1d6a08]" name="testOpenCreateClackPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet"/>
+        <method signature="ClacksDetailsPageFunctionalTestSet.testErrorClackNotFound(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet@587d1d39]" name="testErrorClackNotFound" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageUnitTestSet.testOpenClackDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet@6b57696f]" name="testOpenClackDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet@1500955a]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet"/>
+        <method signature="ClacksUpdatePageUnitTestSet.testOpenClackUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet@e874448]" name="testOpenClackUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageConfirmToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageConfirmToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageRefuseToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageRefuseToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageIntegrationTestSet.testDeletePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet@25af5db5]" name="testDeletePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet"/>
+        <method signature="ClacksDeletePageUnitTestSet.testOpenClacksDeletePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet@12cdcf4]" name="testOpenClacksDeletePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet"/>
+        <method signature="ClacksEndToEndTestSet.testCRUDClack(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet@7b69c6ba]" name="testCRUDClack" class="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet"/>
+      </group> <!-- prod -->
+      <group name="dev">
+        <method signature="HomePageIntegrationTestSet.testHomePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet@704a52ec]" name="testHomePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet"/>
+        <method signature="HomePageUnitTestSet.testOpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet@6ee52dcd]" name="testOpenHomePage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToCreatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToCreatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToHomePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageUnitTestSet.testOpenClacksPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet@307f6b8c]" name="testOpenClacksPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet"/>
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksCreatePageIntegrationTestSet.testCreatePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet@fad74ee]" name="testCreatePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet"/>
+        <method signature="ClacksCreatePageUnitTestSet.testOpenCreateClackPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet@1a1d6a08]" name="testOpenCreateClackPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet"/>
+        <method signature="ClacksDetailsPageFunctionalTestSet.testErrorClackNotFound(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet@587d1d39]" name="testErrorClackNotFound" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageUnitTestSet.testOpenClackDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet@6b57696f]" name="testOpenClackDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet@1500955a]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet"/>
+        <method signature="ClacksUpdatePageUnitTestSet.testOpenClackUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet@e874448]" name="testOpenClackUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageConfirmToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageConfirmToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageRefuseToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageRefuseToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageIntegrationTestSet.testDeletePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet@25af5db5]" name="testDeletePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet"/>
+        <method signature="ClacksDeletePageUnitTestSet.testOpenClacksDeletePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet@12cdcf4]" name="testOpenClacksDeletePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet"/>
+        <method signature="ClacksEndToEndTestSet.testCRUDClack(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet@7b69c6ba]" name="testCRUDClack" class="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet"/>
+      </group> <!-- dev -->
+      <group name="home page">
+        <method signature="HomePageIntegrationTestSet.testHomePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet@704a52ec]" name="testHomePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet"/>
+        <method signature="HomePageUnitTestSet.testOpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet@6ee52dcd]" name="testOpenHomePage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet"/>
+      </group> <!-- home page -->
+      <group name="e2e">
+        <method signature="ClacksEndToEndTestSet.testCRUDClack(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet@7b69c6ba]" name="testCRUDClack" class="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet"/>
+      </group> <!-- e2e -->
+      <group name="clacks">
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToCreatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToCreatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToHomePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageUnitTestSet.testOpenClacksPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet@307f6b8c]" name="testOpenClacksPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet"/>
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksDetailsPageFunctionalTestSet.testErrorClackNotFound(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet@587d1d39]" name="testErrorClackNotFound" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageUnitTestSet.testOpenClackDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet@6b57696f]" name="testOpenClackDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet@1500955a]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet"/>
+        <method signature="ClacksUpdatePageUnitTestSet.testOpenClackUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet@e874448]" name="testOpenClackUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageConfirmToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageConfirmToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageRefuseToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageRefuseToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageIntegrationTestSet.testDeletePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet@25af5db5]" name="testDeletePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet"/>
+        <method signature="ClacksEndToEndTestSet.testCRUDClack(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet@7b69c6ba]" name="testCRUDClack" class="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet"/>
+      </group> <!-- clacks -->
+      <group name="fun">
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksCreatePageFunctionalTestSet.testCreateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet"/>
+        <method signature="ClacksDetailsPageFunctionalTestSet.testErrorClackNotFound(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet@587d1d39]" name="testErrorClackNotFound" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormAddFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksUpdatePageFunctionalTestSet.testUpdateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormRemoveFields" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageRefuseToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageRefuseToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+      </group> <!-- fun -->
+      <group name="int">
+        <method signature="HomePageIntegrationTestSet.testHomePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet@704a52ec]" name="testHomePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToCreatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToCreatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToDetailsPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToHomePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksListPageIntegrationTestSet.testListPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet"/>
+        <method signature="ClacksCreatePageIntegrationTestSet.testCreatePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet@fad74ee]" name="testCreatePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksDetailsPageIntegrationTestSet.testDetailsPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToUpdatePage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet"/>
+        <method signature="ClacksUpdatePageIntegrationTestSet.testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet@1500955a]" name="testDetailsPageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet"/>
+        <method signature="ClacksDeletePageFunctionalTestSet.testDeletePageConfirmToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageConfirmToDelete" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet"/>
+        <method signature="ClacksDeletePageIntegrationTestSet.testDeletePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet@25af5db5]" name="testDeletePageToListPage" class="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet"/>
+      </group> <!-- int -->
+    </groups>
+    <test name="HomePage" duration-ms="13311" started-at="2018-12-18T00:37:52 CET" finished-at="2018-12-18T00:38:05 CET">
+      <class name="com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet">
+        <test-method status="FAIL" signature="testOpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet@6ee52dcd]" name="testOpenHomePage" duration-ms="5392" started-at="2018-12-18T00:37:59 CET" description="I can open home page and see header and content" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:05 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenHomePage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.home.HomePageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet">
+        <test-method status="FAIL" signature="testHomePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet@704a52ec]" name="testHomePageToListPage" duration-ms="6451" started-at="2018-12-18T00:37:52 CET" description="I can navigate to List page from Home page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:37:59 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageToListPage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.home.HomePageIntegrationTestSet -->
+    </test> <!-- HomePage -->
+    <test name="ClacksListPage" duration-ms="23627" started-at="2018-12-18T00:38:06 CET" finished-at="2018-12-18T00:38:29 CET">
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet">
+        <test-method status="FAIL" signature="testListPageToCreatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToCreatePage" duration-ms="4065" started-at="2018-12-18T00:38:06 CET" description="I can navigate to Create page from List page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:10 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListPageToCreatePage -->
+        <test-method status="FAIL" signature="testListPageToDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToDetailsPage" duration-ms="4163" started-at="2018-12-18T00:38:10 CET" description="I can navigate to Details page from List page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:14 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListPageToDetailsPage -->
+        <test-method status="FAIL" signature="testListPageToHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToHomePage" duration-ms="4107" started-at="2018-12-18T00:38:15 CET" description="I can navigate to Home page from List page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:19 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListPageToHomePage -->
+        <test-method status="FAIL" signature="testListPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet@2173f6d9]" name="testListPageToUpdatePage" duration-ms="4275" started-at="2018-12-18T00:38:19 CET" description="I can navigate to Update page from List page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:24 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListPageToUpdatePage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageIntegrationTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet">
+        <test-method status="FAIL" signature="testOpenClacksPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet@307f6b8c]" name="testOpenClacksPage" duration-ms="4614" started-at="2018-12-18T00:38:24 CET" description="I can open clacks page and see header and content" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:29 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenClacksPage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.list.ClacksListPageUnitTestSet -->
+    </test> <!-- ClacksListPage -->
+    <test name="ClacksCreatePage" duration-ms="17839" started-at="2018-12-18T00:38:29 CET" finished-at="2018-12-18T00:38:47 CET">
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet">
+        <test-method status="FAIL" signature="testCreateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormAddFields" duration-ms="3381" started-at="2018-12-18T00:38:29 CET" description="I can add fields in create clack form" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:33 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [1] but found [0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.clickclack.web.autotests.pageobjects.clacks.ClacksCreatePage.verifyNbFields(ClacksCreatePage.java:44)
+at com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet.testCreateFormAddFields(ClacksCreatePageFunctionalTestSet.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFormAddFields -->
+        <test-method status="FAIL" signature="testCreateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet@36b4cef0]" name="testCreateFormRemoveFields" duration-ms="3169" started-at="2018-12-18T00:38:34 CET" description="I can remove fields in create clack form" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:37 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [1] but found [0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.clickclack.web.autotests.pageobjects.clacks.ClacksCreatePage.verifyNbFields(ClacksCreatePage.java:44)
+at com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet.testCreateFormRemoveFields(ClacksCreatePageFunctionalTestSet.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFormRemoveFields -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageFunctionalTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet">
+        <test-method status="FAIL" signature="testOpenCreateClackPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet@1a1d6a08]" name="testOpenCreateClackPage" duration-ms="4574" started-at="2018-12-18T00:38:42 CET" description="I can open clacks create page and see header and content" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:47 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenCreateClackPage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet">
+        <test-method status="FAIL" signature="testCreatePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet@fad74ee]" name="testCreatePageToListPage" duration-ms="4067" started-at="2018-12-18T00:38:38 CET" description="I can navigate to Clacks page from Create page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:42 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePageToListPage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.create.ClacksCreatePageIntegrationTestSet -->
+    </test> <!-- ClacksCreatePage -->
+    <test name="ClacksDetailsPage" duration-ms="17838" started-at="2018-12-18T00:38:47 CET" finished-at="2018-12-18T00:39:05 CET">
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet">
+        <test-method status="FAIL" signature="testErrorClackNotFound(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet@587d1d39]" name="testErrorClackNotFound" duration-ms="3288" started-at="2018-12-18T00:38:47 CET" description="Error clack not found on details page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:50 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.clickclack.web.autotests.pageobjects.clacks.ClacksDetailsPage.verifyError(ClacksDetailsPage.java:53)
+at com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet.testErrorClackNotFound(ClacksDetailsPageFunctionalTestSet.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorClackNotFound -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageFunctionalTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet">
+        <test-method status="FAIL" signature="testOpenClackDetailsPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet@6b57696f]" name="testOpenClackDetailsPage" duration-ms="3985" started-at="2018-12-18T00:39:00 CET" description="I can open clacks details page and see header and content" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:04 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenClackDetailsPage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet">
+        <test-method status="FAIL" signature="testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToListPage" duration-ms="4309" started-at="2018-12-18T00:38:51 CET" description="I can navigate to List page from Details page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:38:56 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetailsPageToListPage -->
+        <test-method status="FAIL" signature="testDetailsPageToUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet@58c1670b]" name="testDetailsPageToUpdatePage" duration-ms="4017" started-at="2018-12-18T00:38:56 CET" description="I can navigate to Update page from Details page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:00 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetailsPageToUpdatePage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.details.ClacksDetailsPageIntegrationTestSet -->
+    </test> <!-- ClacksDetailsPage -->
+    <test name="ClacksUpdatePage" duration-ms="17813" started-at="2018-12-18T00:39:05 CET" finished-at="2018-12-18T00:39:23 CET">
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet">
+        <test-method status="FAIL" signature="testOpenClackUpdatePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet@e874448]" name="testOpenClackUpdatePage" duration-ms="4031" started-at="2018-12-18T00:39:18 CET" description="I can open clacks update page and see header and content" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:22 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenClackUpdatePage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageUnitTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet">
+        <test-method status="FAIL" signature="testDetailsPageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet@1500955a]" name="testDetailsPageToListPage" duration-ms="4043" started-at="2018-12-18T00:39:14 CET" description="I can navigate to List page from Details page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:18 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetailsPageToListPage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageIntegrationTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet">
+        <test-method status="FAIL" signature="testUpdateFormAddFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormAddFields" duration-ms="3930" started-at="2018-12-18T00:39:05 CET" description="I can add fields in update clack form" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:09 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateFormAddFields -->
+        <test-method status="FAIL" signature="testUpdateFormRemoveFields(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet@7ce6a65d]" name="testUpdateFormRemoveFields" duration-ms="3900" started-at="2018-12-18T00:39:09 CET" description="I can remove fields in update clack form" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:13 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateFormRemoveFields -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.update.ClacksUpdatePageFunctionalTestSet -->
+    </test> <!-- ClacksUpdatePage -->
+    <test name="ClacksDeletePage" duration-ms="18078" started-at="2018-12-18T00:39:23 CET" finished-at="2018-12-18T00:39:41 CET">
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet">
+        <test-method status="FAIL" signature="testDeletePageConfirmToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageConfirmToDelete" duration-ms="4067" started-at="2018-12-18T00:39:23 CET" description="On Delete page I can confirm delete" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:27 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePageConfirmToDelete -->
+        <test-method status="FAIL" signature="testDeletePageRefuseToDelete(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet@5bfbf16f]" name="testDeletePageRefuseToDelete" duration-ms="4041" started-at="2018-12-18T00:39:27 CET" description="On Delete page I can refuse delete" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:31 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePageRefuseToDelete -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageFunctionalTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet">
+        <test-method status="FAIL" signature="testDeletePageToListPage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet@25af5db5]" name="testDeletePageToListPage" duration-ms="3986" started-at="2018-12-18T00:39:32 CET" description="I can navigate to Clacks page from Delete page" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:36 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePageToListPage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageIntegrationTestSet -->
+      <class name="com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet">
+        <test-method status="FAIL" signature="testOpenClacksDeletePage(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet@12cdcf4]" name="testOpenClacksDeletePage" duration-ms="4181" started-at="2018-12-18T00:39:36 CET" description="I can open clacks create page and see header and content" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:40 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenClacksDeletePage -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.clacks.delete.ClacksDeletePageUnitTestSet -->
+    </test> <!-- ClacksDeletePage -->
+    <test name="end to end" duration-ms="4351" started-at="2018-12-18T00:39:41 CET" finished-at="2018-12-18T00:39:45 CET">
+      <class name="com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet">
+        <test-method status="FAIL" signature="testCRUDClack(java.lang.String, java.lang.String)[pri:0, instance:com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet@7b69c6ba]" name="testCRUDClack" duration-ms="3905" started-at="2018-12-18T00:39:41 CET" description="I can CRUD clack" data-provider="HostsAndBrowsersProvider" finished-at="2018-12-18T00:39:45 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+at sun.reflect.GeneratedMethodAccessor144.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:123)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at com.clickclack.web.autotests.listeners.SlackNotifier.onTestFailure(SlackNotifier.java:56)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:63)
+at org.testng.internal.Invoker.runTestResultListener(Invoker.java:1516)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCRUDClack -->
+      </class> <!-- com.clickclack.web.autotests.draft.v1.pop.ClacksEndToEndTestSet -->
+    </test> <!-- end to end -->
+  </suite> <!-- ClickClack Web Draft v1 -->
+</testng-results>

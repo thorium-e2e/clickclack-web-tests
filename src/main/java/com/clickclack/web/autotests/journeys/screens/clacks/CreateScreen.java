@@ -7,15 +7,19 @@ public class CreateScreen extends SeleniumJourneyScreen {
 
     public static String EP = "/clacks/create";
 
-    public static By clack_fields_pair = By.id("clack-fields-pair");
-    public static By btn_addFields = By.id("btn-add-fields");
-    public static By btn_rmFields = By.id("btn-delete-fields");
-    public static By btn_submit = By.id("btn-submit-form");
-    public static By lnk_clacksPage = By.id("btn-to-clacks-list");
-    public static By input_key(int position) {
-        return By.xpath("//*[@id=\"keys\"][" + (position - 1) + "]");
+    public static By lnk_clacks = By.id("lnk_clacks");
+    public static By clacks_fields_pair_list = By.id("clacks_fields_pair_list");
+    public static By clacks_fields_pair = By.id("clacks_fields_pair");
+    public static By keys = By.id("keys");
+    public static By values = By.id("values");
+    public static By btn_delete_fields = By.id("btn_delete_fields");
+    public static By btn_reset = By.id("btn_reset");
+    public static By btn_add_fields = By.id("btn_add_fields");
+    public static By btn_submit = By.id("btn_submit");
+    public static By input_key(int pos) {
+        return By.xpath("//*[@id=\"" + keys + "][" + pos + "]\"");
     }
-    public static By input_value(int position) {
-        return By.xpath("//*[@id=\"values\"][" + (position - 1) + "]");
+    public static By input_value(int pos) {
+        return By.xpath("//*[@id=\"" + values + "][" + pos + "]\"");
     }
 }

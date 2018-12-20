@@ -22,6 +22,7 @@ public class Create {
             // other key/value
             if(clackBody.size() >= 2){
                 for (int i = 1; i < clackBody.size(); i++) {
+                    Click.on(driver, CreateScreen.btn_add_fields);
                     key = String.valueOf(clackBody.keySet().toArray()[i]);
                     value = clackBody.get(key);
                     Enter.textInto(driver, key, CreateScreen.input_key(i + 1));

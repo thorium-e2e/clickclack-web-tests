@@ -8,6 +8,6 @@ public class Delete {
 
     public static void clackById(WebDriver driver, String host, String clackId) {
         driver.get(host + DeleteScreen.EP.replace("CLACK_ID", clackId));
-        Click.on(driver, DeleteScreen.btn_sure);
+        Click.on(driver, DeleteScreen.sure);
     }
 }

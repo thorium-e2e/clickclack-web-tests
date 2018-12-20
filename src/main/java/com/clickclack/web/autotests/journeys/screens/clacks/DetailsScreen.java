@@ -6,6 +6,8 @@ public class DetailsScreen {
 
     public static String EP = "/clacks/CLACK_ID/details";
 
-    public static By btn_toClacksList = By.id("btn-to-clacks-list");
-    public static By btn_toUpdateClack = By.id("btn-to-update-clack");
+    public static By lnk_clacks = By.id("lnk_clacks");
+    public static By lnk_clack_update = By.id("lnk_clack_update");
+    public static By lnk_clack_delete = By.id("lnk_clack_delete");
+    public static By error_not_found = By.id("error_not_found");
 }

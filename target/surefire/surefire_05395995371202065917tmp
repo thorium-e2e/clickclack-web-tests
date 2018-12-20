@@ -1,0 +1,9 @@
+#surefire_0
+#Tue Dec 18 00:37:47 CET 2018
+propertyName=env.name
+user.dir=/Users/adrian/GitHub/clickclack-web-tests
+browser.type=chrome
+idea.version=2018.2.4
+localRepository=/Users/adrian/.m2/repository
+env.name=local
+basedir=/Users/adrian/GitHub/clickclack-web-tests

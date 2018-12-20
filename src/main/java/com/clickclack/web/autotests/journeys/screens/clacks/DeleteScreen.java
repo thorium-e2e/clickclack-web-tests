@@ -6,8 +6,8 @@ public class DeleteScreen {
 
     public static String EP = "/clacks/CLACK_ID/delete";
 
-    public static By lbl_areYouSure = By.id("are-you-sure");
-    public static By btn_notSure = By.id("not-sure");
-    public static By btn_sure = By.id("sure");
-    public static By lnk_listPage = By.id("btn-to-clacks-list");
+    public static By lnk_clacks = By.id("lnk_clacks");
+    public static By lnk_clack_details = By.id("lnk_clack_details");
+    public static By not_sure = By.id("not_sure");
+    public static By sure = By.id("sure");
 }

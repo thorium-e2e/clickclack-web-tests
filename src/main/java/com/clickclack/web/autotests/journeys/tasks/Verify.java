@@ -20,6 +20,6 @@ public class Verify {
     }
 
     public static void clackDoesntExist(WebDriver driver) {
-        Assert.assertTrue(textPresent(driver, "API Call Failed"));
+        Assert.assertTrue(driver.findElement(DetailsScreen.error_not_found).isDisplayed());
     }
 }

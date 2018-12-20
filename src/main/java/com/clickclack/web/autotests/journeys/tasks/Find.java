@@ -13,4 +13,9 @@ public class Find {
     public static void clackById(WebDriver driver, String host, String clackId){
         driver.get(host + DetailsScreen.EP.replace("CLACK_ID", clackId));
     }
+
+    public static int nbClacks(WebDriver driver, String host) {
+        clacks(driver, host);
+        return driver.findElements(ListScreen.lnk_clack_details).size();
+    }
 }
